@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+h1 {
+    font-family: fantasy;
+    color: wheat;
+}
+
+h2 {
+    font-family: serif;
+}
+
+h3 {
+    font-family: cursive;
+}

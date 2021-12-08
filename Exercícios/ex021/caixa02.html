@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+
+        header {
+            text-align: left;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        nav > a{
+            text-align: left;
+            margin-right: 30px;
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+        }
+
+        nav > a#login {
+            text-align: right;
+            margin-right: 5px;
+            margin-left: 180px;
+        }
+
+        nav > a:hover {
+            text-decoration: none;
+            color: white;
+            background-color: rgb(192, 192, 192);
+        }
+
+        main {
+            text-align: justify;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        article {
+            background-color: rgb(224, 224, 224)smoke;
+            border-radius: 3px;
+            padding: 5px;
+        }
+
+        article > aside {
+            text-align: center;
+            width: auto;
+            background-color: rgb(170, 170, 170);
+            border-radius: 2px;
+            margin: auto;
+        }
+
+        footer {
+            padding: 10px;
+            margin: 0px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: dimgrey;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site Brabo</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a id="login" href="#">Login</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Tecnologia Cultura Japonesa</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Novidades sobre a venda de paçocas no Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui tempora hic odit ut velit dolores non quidem unde, fugit eos itaque nobis sunt expedita illo provident ducimus quasi veritatis libero.</p>
+                <aside>
+                    <p>Artigo escrito por Arom Bado</p>
+                </aside>
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Developed by @vattghern</p>
+    </footer>
+</body>
+</html>

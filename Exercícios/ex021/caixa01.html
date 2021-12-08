@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            height: 300px;
+            width: 300px;
+
+            /*
+            Short Hand a seguir
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+
+            /*
+            Quando todas as medidas são iguais basta colocar apenas uma delas e/ou também se pode simplificar colocando apenas as medidas da parte de cima e baixo, tanto quanto, a da direita e da esquerda
+            */
+
+            padding: 10px 10px 10px 10px;
+            
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgoldenrod;
+            */
+
+            border: 10px solid darkgoldenrod;
+
+            /*
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            */
+
+            margin: 20px 20px 20px 20px;
+
+            /*
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: black;
+            */
+
+            outline: 5px dashed black;
+
+            background-color: blanchedalmond;
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgba(173, 216, 230, 0.541);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa de Box level</h1>
+    <p>Parágrafos também são exemplos de box level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona</p>
+
+</body>
+</html>

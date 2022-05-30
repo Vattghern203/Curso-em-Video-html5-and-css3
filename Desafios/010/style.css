@@ -18,17 +18,22 @@ body {
 h1 {
     font-family: "Android";
     color: green;
+    padding: 16px;
 }
 
 h2 {
     font-family: "Android";
-    background-color: #84E1AD;
-    color: white;
+    background: linear-gradient(to right,#84E1AD, #cdf3df);
+    color: green;
+    padding: 4px;
     width: 100%;
 }
 
 p {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-weight: 500;
+    word-wrap: break-word;
 }
 
 .main-top {
@@ -68,7 +73,6 @@ main {
     width: 50%;
     margin: 0 auto;
     gap: 32px;
-    padding: 32px;
 }
 
 section {
@@ -77,6 +81,7 @@ section {
     gap: 32px;
     justify-content: center;
     align-items: center;
+    margin: 16px;
 }
 
 article {
@@ -85,4 +90,18 @@ article {
     gap: 32px;
     justify-content: center;
     align-items: center;
+}
+
+.video-container {
+    width: auto;
+    height: auto;
+    padding: 16px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    flex-grow: calc(1vw + 10px);
+}
+
+#video {
+    height: 32.5rem;
 }

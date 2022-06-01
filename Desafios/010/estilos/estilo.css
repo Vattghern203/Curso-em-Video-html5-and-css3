@@ -47,6 +47,23 @@ nav {
 
 main {
     background-color: white;
+    margin: auto;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+}
+
+main img {
+    width: 100%;
+}
+
+.responsive-img {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 main h1 {
